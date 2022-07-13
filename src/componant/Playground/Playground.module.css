@@ -1,0 +1,34 @@
+.playground {
+  z-index: -1;
+  position: static;
+  width: 100%;
+}
+.playgroundContiner {
+  z-index: -1;
+  width: fit-content;
+}
+.playgroundBigContiner {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.playerCardPlayGround {
+  display: flex;
+  position: static;
+  margin: 6% 6.5%;
+  z-index: 15;
+  width: 10%;
+  height: 11%;
+}
+.cardHolders {
+  width: 95%;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  right: 5%;
+  height: 100%;
+  align-content:center;
+  top: -6%;
+}
