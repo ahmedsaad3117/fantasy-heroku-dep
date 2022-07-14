@@ -1,7 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-
-
 const intinalState = require("../../assets/files/playernames.json");
 const matchNameFile = require("../../assets/files/matachname.json");
 
